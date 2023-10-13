@@ -1,5 +1,6 @@
 # connection_manager.py
 import requests
+import json
 
 def connect_to_api(url, headers):
     try:
