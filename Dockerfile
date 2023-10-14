@@ -12,3 +12,6 @@ RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 # Specify the command to run your Python script
 CMD ["python", "Execution.py"]
+
+# Expose port 8000
+EXPOSE 8000
